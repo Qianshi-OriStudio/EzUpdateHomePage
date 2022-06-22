@@ -1,3 +1,10 @@
+*{
+	-webkit-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1); 
+  	-moz-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
+	-ms-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
+	-o-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
+	transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
+}
 html{
 	background-color: #f8f9fa;
 }
@@ -25,15 +32,24 @@ html{
 	margin-bottom: 8px;
 }
 #ClientRect-DownloadRect-DownloadLibrary ,#ClientRect-DownloadRect-DownloadSource{
+	font-size: 18px;
 	margin-top: 5px;
 	margin-bottom: 0;
 	height: 48px;
 	border-radius: 5px;
 	border-width: 0px;
 }
+#ClientRect-DownloadRect-DownloadLibrary:hover{
+	background-color: #5e6770;
+}
+#ClientRect-DownloadRect-DownloadSource:hover{
+	background-color: #eff2f5;
+}
 #ClientRect-DownloadRect-DownloadLibrary {
+	color: #b6afa8;
 	background-color: #495057;
 }
 #ClientRect-DownloadRect-DownloadSource{
+	color: #161306;
 	background-color: #e9ecef;
 }
