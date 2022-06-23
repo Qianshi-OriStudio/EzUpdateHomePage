@@ -4,9 +4,16 @@
 	-ms-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
 	-o-transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
 	transition: all 0.25s cubic-bezier(0.61, 1, 0.88, 1);
+
+	background:none center center fixed ;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 html{
-	background-color: #f8f9fa;
+	position: absolute;
+	background-image: url('../img/Wallpaper.jpg');
+	width: 100%;
+	height: 200%;
 }
 #ClientRect-TopRect{
 	position: absolute;
@@ -14,14 +21,15 @@ html{
 	top: 0px;
 	width: 100%;
 	height: 64px;
+	background: none;
 	background-color: #212529;
-	background-image: url('../img/Logo.png');
-	background-repeat: no-repeat;
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('../img/Logo.png');
 }
 #ClientRect-DownloadRect{
 	position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     width: 200px;
     transform: translate(-50%,-50%);
@@ -40,16 +48,26 @@ html{
 	border-width: 0px;
 }
 #ClientRect-DownloadRect-DownloadLibrary:hover{
-	background-color: #5e6770;
+	background-color: #343a40;
 }
 #ClientRect-DownloadRect-DownloadSource:hover{
-	background-color: #eff2f5;
+	background-color: #dee2e6;
 }
-#ClientRect-DownloadRect-DownloadLibrary {
+#ClientRect-DownloadRect-DownloadLibrary{
 	color: #b6afa8;
 	background-color: #495057;
 }
 #ClientRect-DownloadRect-DownloadSource{
 	color: #161306;
 	background-color: #e9ecef;
+}
+#ClientRect-DownloadRect-DownloadLibrary:active{
+	background-color: #212529;
+}
+#ClientRect-DownloadRect-DownloadSource:active{
+	background-color: #ced4da;
+}
+#ClientRect-DownloadRect-Title{
+	font-size: 32px;
+	color: white;
 }

@@ -1,13 +1,16 @@
 const _lang = {
 	"zh-CN": {
+		"DownloadTitle": "下载",
 		"DownloadLib": "下载库",
 		"DownloadSource": "下载易源码",
 	},
 	"zh-TW": {
+		"DownloadTitle": "下載",
 		"DownloadLib": "下載庫",
 		"DownloadSource": "下載易源碼",
 	},
 	"en-US": {
+		"DownloadTitle": "Download",
 		"DownloadLib": "DownloadLibrary",
 		"DownloadSource": "DownloadSourceCode",
 	}
