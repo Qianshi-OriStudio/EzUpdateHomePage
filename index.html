@@ -10,11 +10,17 @@
 		<script type="text/javascript" src="./js/index.js"></script>
 	</head>
 	<body id="ClientRect">
-		<div id="ClientRect-TopRect"></div>
+		<div id="ClientRect-TopRect">
+			<button id="ClientRect-TopRect-Icon"></button>
+		</div>
 		<div id="ClientRect-DownloadRect">
-			<center class="_textData" id="ClientRect-DownloadRect-Title">{DownloadTitle}</center>
-			<button class="_textData" id="ClientRect-DownloadRect-DownloadLibrary">{DownloadLib}</button>
-			<button class="_textData" id="ClientRect-DownloadRect-DownloadSource">{DownloadSource}</button>
+			<center class="_textData" _defaultData="{DownloadTitle}" id="ClientRect-DownloadRect-Title">Null</center>
+			<button class="_textData" _defaultData="{DownloadLib}" id="ClientRect-DownloadRect-DownloadLibrary">Null</button>
+			<button class="_textData" _defaultData="{DownloadSource}" id="ClientRect-DownloadRect-DownloadSource">Null</button>
+		</div>
+		<div id="ClientRect-MoreInfo">
+			<a href="https://github.com/Qianshi-OriStudio/EzUpdate/issues"><img class="_githubTextData" alt="GitHub issues" src="https://img.shields.io/github/issues/Qianshi-OriStudio/EzUpdate?label=%7Bissues%7D&style=flat-square"></a>
+			
 		</div>
 	</body>
 </html>

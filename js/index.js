@@ -1,8 +1,8 @@
-window.onload = function(){
+window.addEventListener('load',async () =>{
 	var lang = navigator.appName != 'Netscape' ? navigator.userLanguage : navigator.language;
 	LoadLanguage(lang);
-}
-function GetInternetData (URL) {
+})
+function GetInternetData (URL){
 	var xhr = new XMLHttpRequest ();
 	var Ret = null
 	xhr.onreadystatechange=function () {
@@ -17,4 +17,7 @@ function GetInternetData (URL) {
 	xhr.open('GET',URL,false);
 	xhr.send();
 	return (Ret);
+}
+function insertStr(soure, start , NewStr) {
+	return soure.slice(0,start) + NewStr + soure.slice(start);
 }
