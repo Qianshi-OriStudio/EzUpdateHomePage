@@ -1,7 +1,19 @@
+import {_welcome} from './language.js';
+import {LoadLanguage} from './language.js';
+
 window.addEventListener('load',async () =>{
 	var lang = navigator.appName != 'Netscape' ? navigator.userLanguage : navigator.language;
 	LoadLanguage(lang);
+	LoadButtonData()
+	console.debug('Website is translated');
+	console.info(_welcome[lang])
+	傻逼()
 })
+function LoadButtonData() {
+	//console.debug(GetInternetData ('../api/?type=get'))
+	//var json = JSON.parse(GetInternetData ('../api/?type=get'));
+	//console.debug(json)
+}
 function GetInternetData (URL){
 	var xhr = new XMLHttpRequest ();
 	var Ret = null
@@ -17,7 +29,4 @@ function GetInternetData (URL){
 	xhr.open('GET',URL,false);
 	xhr.send();
 	return (Ret);
-}
-function insertStr(soure, start , NewStr) {
-	return soure.slice(0,start) + NewStr + soure.slice(start);
 }
