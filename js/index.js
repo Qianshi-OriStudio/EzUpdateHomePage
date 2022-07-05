@@ -1,5 +1,6 @@
 import {_welcome} from './language.js';
 import {LoadLanguage} from './language.js';
+import {_} from './easterEgg.js';
 
 window.addEventListener('load',async () =>{
 	var lang = navigator.appName != 'Netscape' ? navigator.userLanguage : navigator.language;
@@ -7,7 +8,7 @@ window.addEventListener('load',async () =>{
 	LoadButtonData()
 	console.debug('Website is translated');
 	console.info(_welcome[lang])
-	傻逼()
+	_()
 })
 function LoadButtonData() {
 	//console.debug(GetInternetData ('../api/?type=get'))

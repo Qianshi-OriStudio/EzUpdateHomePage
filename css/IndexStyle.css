@@ -90,9 +90,9 @@ html{
 /*                   | MoreInfo |                   */
 #ClientRect-MoreInfo{
 	position: absolute;
-	left: 0px;
-	right: 0px;
+	left: 50%;
 	height: 20px;
 	bottom: 0px;
-	background-color: white;
+	transform: translate(-50%,0%);
+	background-color: transparent;
 }
