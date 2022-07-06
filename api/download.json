@@ -5,6 +5,6 @@
 	"version": "1.0.1.220705",
 	"versionType": "release",
 	"downloadList": {
-		"Main.exe": "url"
+		"Main/dotexe": "url"
 	}
 }
