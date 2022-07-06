@@ -1,9 +1,9 @@
 {
-	"isNew": "true",
 	"title": "NewVersion!",
 	"subTitle": "null",
 	"explain": "null",
-	"version": "1.0.1.220705-Alpha",
+	"version": "1.0.1.220705",
+	"versionType": "release",
 	"downloadList": {
 		"Main.exe": "url"
 	}
