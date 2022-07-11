@@ -12,6 +12,7 @@
 
 	overflow-x: hidden;
 	overflow-y: hidden;
+	font-family: "Minecraft", "YaHei";
 }
 html{
 	position: absolute;
@@ -26,22 +27,35 @@ html{
 	top: 0px;
 	width: 100%;
 	height: 64px;
+	border: none;
 	z-index: 114514;
 	background-color: #212529;
 	
 }
 #ClientRect-TopRect-Icon{
 	color: none;
-	position: relative;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 159.4754098360656px;
 	height: 64px;
+	border: none;
 	background: none;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url('../img/Logo.png');
 }
+#ClientRect-TopRect-FaQ{
+	position: fixed;
+	top: 0px;
+	left: 167px;
+	width: 159.4754px;
+	height: 64px;
+	border: none;
+	color: white;
+	font-size: 18px;
+}
+
 /*                   | DownloadRect |                   */
 #ClientRect-DownloadRect{
 	position: absolute;

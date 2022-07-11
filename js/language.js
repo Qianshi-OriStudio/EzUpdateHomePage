@@ -9,14 +9,16 @@ const _lang = {
 		"DownloadLib": "下载库",
 		"DownloadSource": "下载易源码",
 		"issues": "问题",
-		"stars": "点赞"
+		"stars": "点赞",
+		"FaQ": "常见问题解答"
 	},
 	"zh-TW": {
 		"DownloadTitle": "下載",
 		"DownloadLib": "下載庫",
 		"DownloadSource": "下載易源碼",
 		"issues": "問題",
-		"stars": "點贊"
+		"stars": "點贊",
+		"FaQ": "常見問題解答"
 	},
 	"en-US": {
 		"DownloadTitle": "Download",
@@ -24,6 +26,7 @@ const _lang = {
 		"DownloadSource": "DownloadSourceCode",
 		"issues": "issues",
 		"stars": "stars",
+		"FaQ": "FaQ"
 	}
 }
 const _url = {
